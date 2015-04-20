@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="index" class="loginContainer">
+		<ScrollView>
+			<!-- loginView -->
+			<View id='loginView'>
+				<Label id='loginText'></Label>
+				<View id="lvContainer" >
+					<TextField id="email" class='tfWrapper' />
+					<TextField id="password" class='tfWrapper' />
+					<View class="centerHelper">
+						<Button id="doLoginBtn" title="Login" />
+						<Button id="cancelLoginBtn" title="Cancel" />
+					</View>
+					<Button id="forgotPasswordBtn" title="Forgot Password" />
+				</View>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>
